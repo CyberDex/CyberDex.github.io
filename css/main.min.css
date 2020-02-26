@@ -121,7 +121,7 @@ body {
     --c-light-grey: #bfbfbf;
     --c-soft-grey: #eeeeee;
     --c-primary: #00c483;
-    --first-font: 'Roboto', sans-serif
+    --first-font: 'Ubuntu', sans-serif
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -527,7 +527,7 @@ strong {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
     letter-spacing: 0.2em;
     font-size: 22px
@@ -772,7 +772,7 @@ strong {
 }
 
 .site-content__page-wrap .niko-sc {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     padding-right: 30px;
     position: relative
 }
@@ -2399,18 +2399,49 @@ strong {
 }
 
 .person__bg {
-    background: transparent url(../images/code.png) no-repeat center center;
     height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../images/code.png);
+    background-repeat:  repeat-y;
+    background-size: contain;
+    background-position: bottom left;
     position: relative;
+    animation: MOVE-BG 500s infinite;;
 }
-
+@keyframes MOVE-BG {
+    0% {background-position: bottom left;}
+    50% {background-position: top left;}
+    100% {background-position: bottom left;}
+ }
 .person__bg img {
     position: absolute;
     top: 20%;
     left: 8%;
+    max-width: 90%;
+    -webkit-animation: myOrbit 4s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit 4s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit 4s linear infinite; /* Opera 12+ */
+            animation: myOrbit 4s linear infinite; /* Chrome, Firefox 16+, 
+                                                      IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myOrbit {
+    from { -webkit-transform: rotate(0deg) translateX(5px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit {
+    from { -moz-transform: rotate(0deg) translateX(5px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit {
+    from { -o-transform: rotate(0deg) translateX(5px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(5px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(5px) rotate(-360deg); }
 }
 
 .person__info {
@@ -2431,8 +2462,8 @@ strong {
     line-height: 1.17;
     color: var(--c-white);
     text-align: center;
-    color: rgba(0,0,0,0.6);
-    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    /* color: rgba(0,0,0,0.6); */
+    /* text-shadow: 2px 2px 3px rgba(255,255,255,0.1); */
     margin: 0;
 }
 
@@ -3900,7 +3931,7 @@ iframe {
     }
 
     .site-content__page-wrap .niko-sc {
-        padding-bottom: 40px
+        padding-bottom: 15px
     }
 
     .site-content__page-wrap .niko-sc__title-icon {

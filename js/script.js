@@ -177,19 +177,21 @@
     /* SKILLS */
     const skills = (parentO, parentHeight) => {
         if ($('.niko-sc__skills-list').length) {
+            var i = 0;
             $('.niko-sc__skills-item').not('.active').each(function () {
-                if (parentHeight > $(this).offset().top - 30) {
+                i++;
+                setTimeout(() => {
                     $(this).addClass('active');
                     $(this).each(function () {
                         let procent = $(this).attr('data-value');
                         $(this).find('.active-line').css('width', procent + '%').css('opacity', '1');
                         $(this).find('.counter').countTo();
                     }); // end each
-                }
+                }, i * 100);
             }); // end each
         }
     };
-
+    
     /* ISOTOPE */
     const masonry = () => {
         $('.grid').isotope({
@@ -489,6 +491,7 @@
             // create map
             new_map( $(this) );
         });
+        skills(parentOffset, parentHeight);
     });
 
 })(jQuery, window, document);
