@@ -1,0 +1,41 @@
+{
+    "preload": {
+        "files": [
+            {
+                "type": "image",
+                "key": "greenButton",
+                "url": "assets/buttons/green.png"
+            },
+            {
+                "type": "image",
+                "key": "redButton",
+                "url": "assets/buttons/red.png"
+            },
+            {
+                "type": "image",
+                "key": "blueButton",
+                "url": "assets/buttons/blue.png"
+            },
+            {
+                "type": "image",
+                "key": "playIcon",
+                "url": "assets/buttons/play.png"
+            },
+            {
+                "type": "image",
+                "key": "pauseIcon",
+                "url": "assets/buttons/pause.png"
+            },
+            {
+                "type": "image",
+                "key": "soundIcon",
+                "url": "assets/buttons/sound.png"
+            },
+            {
+                "type": "image",
+                "key": "noSoundIcon",
+                "url": "assets/buttons/noSound.png"
+            }
+        ]
+    }
+}

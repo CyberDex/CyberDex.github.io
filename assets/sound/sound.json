@@ -1,0 +1,62 @@
+{
+    "preload": {
+        "files": [
+            {
+                "type": "audio",
+                "key": "music",
+                "url": [
+                    "assets/sound/mp3/music.mp3",
+                    "assets/sound/ogg/music.ogg"
+                ]
+            },
+            {
+                "type": "audio",
+                "key": "die",
+                "url": [
+                    "assets/sound/mp3/crow1.mp3",
+                    "assets/sound/ogg/crow1.ogg"
+                ]
+            },
+            {
+                "type": "audio",
+                "key": "hi",
+                "url": [
+                    "assets/sound/mp3/crow2.mp3",
+                    "assets/sound/ogg/crow2.ogg"
+                ]
+            },
+            {
+                "type": "audio",
+                "key": "coin",
+                "url": [
+                    "assets/sound/mp3/coin.mp3",
+                    "assets/sound/ogg/coin.ogg"
+                ]
+            },
+            {
+                "type": "audio",
+                "key": "flap",
+                "url": [
+                    "assets/sound/mp3/flap.mp3",
+                    "assets/sound/ogg/flap.ogg"
+                ]
+            },
+            {
+                "type": "audio",
+                "key": "kick",
+                "url": [
+                    "assets/sound/mp3/kick.mp3",
+                    "assets/sound/ogg/kick.ogg"
+                ]
+            },
+            {
+                "type": "audio",
+                "key": "splash",
+                "url": [
+                    "assets/sound/mp3/splash.mp3",
+                    "assets/sound/ogg/splash.ogg"
+                ]
+            }
+        ]
+    }
+}
