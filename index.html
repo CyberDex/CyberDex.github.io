@@ -1,18 +1,467 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#009eed" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Dmytro Soldatov - JavaScript Game Developer</title>
+    <meta name="robots" content="noindex,follow" />
 
-<head>
-	<meta charset="UTF-8" />
-	<title>Fly Magpie</title>
-	<script src="https://connect.facebook.net/en_US/fbinstant.6.2.js"></script>
-	<link rel="stylesheet" type="text/css" href="assets/css/app.css">
-	<script src="dist/bundle.js"></script>
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
-</head>
+    <link
+      rel="stylesheet"
+      id="niko-fonts-css"
+      href="//fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C500i%2C700%2C900&#038;subset=latin%2Clatin-ext&#038;ver=1.0.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="icons-styles-css"
+      href="css/libs/fontawesome.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="simple-line-icons-css"
+      href="css/libs/simple-line-icons.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="bootstrap-css"
+      href="css/libs/bootstrap.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="custom-scrollbar-styles-css"
+      href="css/libs/jquery.mcustomscrollbar.css"
+      type="text/css"
+      media="all"
+    />
 
-<body>
-	<div id="game"></div>
-</body>
+    <link
+      rel="stylesheet"
+      id="niko-theme-styles-css"
+      href="css/main.min.css"
+      type="text/css"
+      media="all"
+    />
 
+    <link
+      rel="stylesheet"
+      id="niko-theme-css-css"
+      href="css/style.css"
+      type="text/css"
+      media="all"
+    />
+
+    <script type="text/javascript" src="js/jquery/jquery.js"></script>
+    <script
+      type="text/javascript"
+      src="js/jquery/jquery-migrate.min.js"
+    ></script>
+
+    <link rel="icon" href="images/cropped-dmytro-32x32.png" sizes="32x32" />
+    <link rel="icon" href="images/cropped-dmytro-192x192.png" sizes="192x192" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="images/cropped-dmytro-180x180.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="https://good-game.dev/images/cropped-dmytro-270x270.png"
+    />
+  </head>
+
+  <body
+    class="home page-template page-template-page-templates page-template-main-template page-template-page-templatesmain-template-php page page-id-307 custom-background no-sidebar"
+  >
+    <!-- PRELOADER START -->
+    <div class="preloader-wrap  dark">
+      <div class="preloader">
+        Dmytro Soldatov
+      </div>
+    </div>
+    <!-- PRELOADER END -->
+    <audio id="sound-link" class="audio_on_hover" preload="auto">
+      <source
+        src="https://good-game.dev/wp-content/themes/niko/assets/audio/click.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+    <span id="click-block"></span>
+    <div class="site-content ">
+      <!-- The cursor elements -->
+      <div class="circle-cursor circle-cursor--inner"></div>
+      <div class="circle-cursor circle-cursor--outer"></div>
+      <div
+        class="site-content__background-color"
+        style="background-color: #333333"
+      ></div>
+      <span class="overlay"></span>
+      <div class="site-content__inner">
+        <div class="container height-100">
+          <div class="row height-100 overflow-hidden">
+            <div class="col-lg-6 p-0 site-content__inner-left">
+              <div class="site-content__head">
+                <div class="left-menu">
+                  <div class="left-menu__sidebar-btn">
+                    <i class="icon-menu"></i>
+                  </div>
+                  <div class="left-menu__menu-list">
+                    <div class="menu-main-menu-container">
+                      <ul id="left-menu" class="menu">
+                        <li
+                          id="menu-item-454"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-307 current_page_item menu-item-454 js-load-post icon_for_child icon-user">
+                          <a href="index.html" aria-current="page" data-page-id="307" >About me</a >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="left-menu__download">
+                    <a class="left-menu__download-btn" href="#" download>
+                      <i class="icon-cloud-download"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="person">
+                  <div class="person__bg"><img src="../images/dmytro.png" alt="Dmytro Soldatov"></div>
+                  <div class="person__info">
+                    <h2 class="person__name">Dmytro Soldatov</h2>
+                    <div class="person__position">
+                      <span>JavaScript Game Developer</span>
+                    </div>
+                    <div class="person__socials">
+                      <ul class="person__socials-list">
+                        <li>
+                          <a href="https://www.linkedin.com/in/dmytro-soldatov/"
+                            ><i class="fab fa-linkedin"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="https://join.skype.com/invite/nfYnL0tr8ZLP"
+                            ><i class="fab fa-skype"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 p-0 site-content__inner-right">
+              <div class="site-content__page">
+                <div class="site-content__page-wrap">
+                  <!--header class="entry-header"><h1 class="entry-title">About me</h1></header-->
+                  <div class="niko-sc niko-sc--about">
+                    <div class="niko-sc__title-wrap">
+                      <h3 class="niko-sc__title">About me</h3>
+                    </div>
+                    <div class="niko-sc__about-list">
+                      <div class="niko-sc__about-item">
+                        12 years in the IT
+                      </div>
+                      <div class="niko-sc__about-item">
+                        Scrum Master
+                      </div>
+                      <div class="niko-sc__about-item">
+                        Agile evangelist
+                      </div>
+                    </div>
+                    <!--div class="niko-sc__about-description">
+                      I am a client-facing senior software engineer with 12
+                      years of commercial experience. My core skill is OO
+                      software development using JavaScript.
+                    </div-->
+                  </div>
+                  <div class="niko-sc niko-sc--skills">
+                    <div class="niko-sc__title-wrap">
+                      <i class="niko-sc__title-icon icon-speedometer"></i>
+                      <h3 class="niko-sc__title">Technical Skills</h3>
+                    </div>
+                    <div class="niko-sc__skills-list">
+                      <div class="niko-sc__skills-item" data-value="100">
+                        <span class="niko-sc__skills-name">
+                          Javascript / TypeScript
+                        </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="100"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="95">
+                        <span class="niko-sc__skills-name">
+                          Pixi.js / Phaser.js / Howler.js
+                        </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="95"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="80">
+                        <span class="niko-sc__skills-name">
+                          React / Redux
+                        </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="80"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="90">
+                        <span class="niko-sc__skills-name"> Firebase </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="90"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="90">
+                        <span class="niko-sc__skills-name"> PhoneGap </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="90"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="100">
+                        <span class="niko-sc__skills-name">
+                          HTTP Live Streaming/ hls.js
+                        </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="100"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="90">
+                        <span class="niko-sc__skills-name">
+                          TDD: jest, chai, mocha
+                        </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="90"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="100">
+                        <span class="niko-sc__skills-name">
+                          HTML / CSS / jQuery / sass / less
+                        </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="100"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="75">
+                        <span class="niko-sc__skills-name"> Node.js </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="75"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="84">
+                        <span class="niko-sc__skills-name"> PHP </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="84"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="100">
+                        <span class="niko-sc__skills-name"> SQL </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="100"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="90">
+                        <span class="niko-sc__skills-name"> GIT </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="90"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="90">
+                        <span class="niko-sc__skills-name"> Linux </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="90"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                      <div class="niko-sc__skills-item" data-value="100">
+                        <span class="niko-sc__skills-name">
+                          Gulp / Browserify / WebPack
+                        </span>
+                        <div class="niko-sc__skills-value">
+                          <span
+                            class="counter"
+                            data-from="0"
+                            data-speed="1500"
+                            data-to="100"
+                            >0</span
+                          >%
+                        </div>
+                        <div class="niko-sc__skills-line">
+                          <div class="active-line"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="niko-sc niko-sc--experience">
+                    <div
+                      class="niko-sc__experience-title-wrap niko-sc__title-wrap"
+                    >
+                      <i
+                        class="niko-sc__experience-title-icon niko-sc__title-icon icon-graduation"
+                      ></i>
+                      <h3 class="niko-sc__experience-title niko-sc__title">
+                        Education
+                      </h3>
+                    </div>
+                    <div class="niko-sc__experience-list">
+                      <div class="niko-sc__experience-item">
+                        <div class="niko-sc__experience-period">
+                          <span class="niko-sc__experience-start">2004</span>
+                          <span class="niko-sc__experience-end">2009</span>
+                        </div>
+                        <h5 class="niko-sc__experience-name">
+                          Kherson National Technical University
+                        </h5>
+                        <div class="niko-sc__experience-region">Ukraine</div>
+                        <div class="niko-sc__experience-description">
+                          Master's degree in computer science. I graduated
+                          course of “Software Engineering” with top high marks.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #content -->
+    </div>
+    <!-- #page -->
+    <script type="text/javascript" src="js/libs/countto.js"></script>
+    <script type="text/javascript" src="js/libs/tweenmax.min.js"></script>
+    <script type="text/javascript" src="js/cursor.js"></script>
+    <script
+      type="text/javascript"
+      src="js/libs/jquery.mcustomscrollbar.concat.min.js"
+    ></script>
+    <script type="text/javascript" src="js/libs/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/wp-embed.min.js"></script>
+  </body>
 </html>
