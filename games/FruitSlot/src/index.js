@@ -2,7 +2,7 @@ import Game from './Game';
 import utils from './utils.js';
 import Text from './view/Text';
 
-utils.loadJSON('../config.json').then(config => {
+utils.loadJSON('config.json').then(config => {
 
     const loader = new PIXI.loaders.Loader();
 
@@ -21,9 +21,9 @@ utils.loadJSON('../config.json').then(config => {
     game.stage.addChild(loadingProgress);
 
     let assets = [config.views.background.src,
-        config.views.sound.imageSrc,
-        config.views.spinButton.enabledSRC,
-        config.views.spinButton.disabledSRC
+    config.views.sound.imageSrc,
+    config.views.spinButton.enabledSRC,
+    config.views.spinButton.disabledSRC
     ];
     for (let sound in config.views.sound.sounds) {
         assets.push(config.views.sound.sounds[sound]);
