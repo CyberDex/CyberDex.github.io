@@ -2,7 +2,7 @@ import Game from './Game';
 import utils from './utils.js';
 import Text from './view/Text';
 
-utils.loadJSON('config.json').then(config => {
+utils.loadJSON('./config.json').then(config => {
 
     const loader = new PIXI.loaders.Loader();
 

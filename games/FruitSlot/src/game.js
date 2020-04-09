@@ -127,7 +127,7 @@ export default class Game {
             slot.isSliding = true;
         });
 
-        utils.loadJSON('../data.json').then(JSONData => {
+        utils.loadJSON('data.json').then(JSONData => {
             this.resultReels = JSONData;
             this.updateSlotsData(this.resultReels);
         }).catch(error => console.log('Error:', error));
