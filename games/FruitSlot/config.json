@@ -42,11 +42,23 @@
             "slotsSrc": "./assets/SYM",
             "slotsImgFormat": ".png",
             "slotsCount": 6,
-            "linesXPositions": [186, 427, 670],
+            "linesXPositions": [
+                186,
+                427,
+                670
+            ],
             "bottomLinePosition": 450,
             "slotHeight": 180,
-            "rollingSpeed": [30, 30, 30],
-            "rollsCount": [6, 7, 9]
+            "rollingSpeed": [
+                30,
+                30,
+                30
+            ],
+            "rollsCount": [
+                6,
+                7,
+                9
+            ]
         },
         "texts": {
             "loading": {
@@ -204,8 +216,5 @@
                 }
             }
         }
-    },
-    "controller": {
-        "dataURL": "data.json"
     }
 }
