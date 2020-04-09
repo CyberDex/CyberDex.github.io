@@ -1,0 +1,37 @@
+{
+    "bg": "slots/bg",
+    "defaultSlotsAmountPerSpin": 50,
+    "reelsCount": 5,
+    "slotsCount": 3,
+    "additionalSlots": 2,
+    "spinTime": 5,
+    "reelDelay": 0.2,
+    "reelsOffsetX": -40,
+    "reelsOffsetY": 70,
+    "slotWindowSizePersentage": {
+        "w": 92,
+        "h": 75
+    },
+    "slots": {
+        "fileTemplate": "slots/",
+        "marging": {
+            "x": 60,
+            "y": 40
+        },
+        "framesCount": {
+            "1": 40,
+            "2": 40,
+            "3": 40,
+            "4": 40,
+            "5": 41,
+            "6": 30,
+            "7": 35,
+            "8": 30,
+            "9": 35,
+            "10": 35,
+            "11": 64,
+            "12": 37,
+            "13": 32
+        }
+    }
+}
