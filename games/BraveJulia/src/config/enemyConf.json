@@ -1,0 +1,39 @@
+{  
+    "atlasVariants": ["zombieMale", "zombieFemale"],
+    "atlas": "zombieMale",
+    "width": 120,
+    "height": 180,
+    "offsetX": 28,
+    "offsetY": 55,     
+    "velocity": -100,       
+    "flipX": true,
+    "depth": 5,
+    "states": {
+        "IDLE": "idle",
+        "DEAD": "dead",
+        "WALK": "walk",
+        "ATTACK": "attack"
+    },
+    "aminations": {
+        "idle": {
+            "frames": 15,
+            "frameRate": 12,
+            "repeat": -1
+        },
+        "dead": {
+            "frames": 12,
+            "frameRate": 8,
+            "repeat": 0
+        },
+        "attack": {
+            "frames": 8,
+            "frameRate": 8,
+            "repeat": -1
+        },
+        "walk": {
+            "frames": 9,
+            "frameRate": 8,
+            "repeat": -1
+        }
+    }
+}

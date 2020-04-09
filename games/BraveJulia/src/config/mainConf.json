@@ -1,0 +1,10 @@
+{
+    "assetsFolder": "src/assets",
+    "mainBG": "0x000000",
+    "width": 1920,
+    "heignt": 1080,
+    "progressBar": {
+        "bgColour": "0x666666",
+        "fgColour": "0xffffff"
+    }
+}

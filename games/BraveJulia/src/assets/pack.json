@@ -1,0 +1,50 @@
+{
+    "preload": {
+        "files": [{
+                "type": "tilemapTiledJSON",
+                "key": "level1",
+                "url": "src/assets/levelType/1/map.json"
+            },
+            {
+                "type": "image",
+                "key": "tiles",
+                "url": "src/assets/levelType/1/tiles.png"
+            },
+            {
+                "type": "image",
+                "key": "objects",
+                "url": "src/assets/levelType/1/objects.png"
+            },
+            {
+                "type": "image",
+                "key": "bg1",
+                "url": "src/assets/levelType/1/bg/bg1.png"
+            },
+            {
+                "type": "image",
+                "key": "bg2",
+                "url": "src/assets/levelType/1/bg/bg2.png"
+            },
+            {
+                "type": "image",
+                "key": "bg3",
+                "url": "src/assets/levelType/1/bg/bg3.png"
+            },
+            {
+                "type": "image",
+                "key": "bg4",
+                "url": "src/assets/levelType/1/bg/bg4.png"
+            },
+            {
+                "type": "image",
+                "key": "bg5",
+                "url": "src/assets/levelType/1/bg/bg5.png"
+            },
+            {
+                "type": "image",
+                "key": "bg6",
+                "url": "src/assets/levelType/1/bg/bg6.png"
+            }
+        ]
+    }
+}

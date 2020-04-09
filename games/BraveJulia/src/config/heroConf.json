@@ -1,0 +1,55 @@
+{
+    "atlas": "hero",
+    "width": 85,
+    "height": 190,
+    "offsetX": 66,
+    "offsetY": 24,
+    "velocity": 500,
+    "jumpHeight": 600,
+    "depth": 10,
+    "states": {
+        "IDLE": "idle",
+        "DEAD": "dead",
+        "JUMP": "jump",
+        "RUN": "run",
+        "SLIDE": "slide",
+        "ATTACK": "attack"
+    },
+    "aminations": {
+        "idle": {
+            "frames": 10,
+            "frameRate": 15,
+            "repeat": -1
+        }, 
+        "dead": {
+            "frames": 10,
+            "frameRate": 12,
+            "repeat": 0
+        },
+        "jump": {
+            "frames": 10,
+            "frameRate": 13,
+            "repeat": 0
+        },
+        "run": {
+            "frames": 8,
+            "frameRate": 10,
+            "repeat": -1
+        },
+        "slide": {
+            "frames": 4,
+            "frameRate": 10,
+            "repeat": 2
+        },
+        "melee": {
+            "frames": 7,
+            "frameRate": 30,
+            "repeat": 0
+        },
+        "shoot": {
+            "frames": 3,
+            "frameRate": 20,
+            "repeat": 0
+        }
+    }
+}
