@@ -4,37 +4,37 @@
             {
                 "type": "image",
                 "key": "greenButton",
-                "url": "assets/buttons/green.png"
+                "url": "buttons/green.png"
             },
             {
                 "type": "image",
                 "key": "redButton",
-                "url": "assets/buttons/red.png"
+                "url": "buttons/red.png"
             },
             {
                 "type": "image",
                 "key": "blueButton",
-                "url": "assets/buttons/blue.png"
+                "url": "buttons/blue.png"
             },
             {
                 "type": "image",
                 "key": "playIcon",
-                "url": "assets/buttons/play.png"
+                "url": "buttons/play.png"
             },
             {
                 "type": "image",
                 "key": "pauseIcon",
-                "url": "assets/buttons/pause.png"
+                "url": "buttons/pause.png"
             },
             {
                 "type": "image",
                 "key": "soundIcon",
-                "url": "assets/buttons/sound.png"
+                "url": "buttons/sound.png"
             },
             {
                 "type": "image",
                 "key": "noSoundIcon",
-                "url": "assets/buttons/noSound.png"
+                "url": "buttons/noSound.png"
             }
         ]
     }

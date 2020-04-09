@@ -4,42 +4,37 @@
             {
                 "type": "image",
                 "key": "fog",
-                "url": "assets/bg/fog.png"
+                "url": "bg/fog.png"
             },
             {
                 "type": "image",
                 "key": "mountain1",
-                "url": "assets/bg/mountain1.png"
+                "url": "bg/mountain1.png"
             },
             {
                 "type": "image",
                 "key": "mountain2",
-                "url": "assets/bg/mountain2.png"
+                "url": "bg/mountain2.png"
             },
             {
                 "type": "image",
                 "key": "cloud",
-                "url": "assets/bg/cloud.png"
+                "url": "bg/cloud.png"
             },
             {
                 "type": "image",
                 "key": "sky",
-                "url": "assets/bg/sky.png"
+                "url": "bg/sky.png"
             },
             {
                 "type": "image",
                 "key": "water",
-                "url": "assets/bg/water.png"
+                "url": "bg/water.png"
             },
             {
                 "type": "image",
                 "key": "wall",
-                "url": "assets/bg/wall.png"
-            },
-            {
-                "type": "image",
-                "key": "coin",
-                "url": "assets/bg/coin.png"
+                "url": "bg/wall.png"
             }
         ]
     }

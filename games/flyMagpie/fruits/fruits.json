@@ -1,0 +1,106 @@
+{
+    "preload": {
+        "files": [
+            {
+                "type": "image",
+                "key": "fruit1",
+                "url": "fruits/fruit1.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit2",
+                "url": "fruits/fruit2.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit3",
+                "url": "fruits/fruit3.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit4",
+                "url": "fruits/fruit4.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit5",
+                "url": "fruits/fruit5.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit6",
+                "url": "fruits/fruit6.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit7",
+                "url": "fruits/fruit7.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit8",
+                "url": "fruits/fruit8.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit9",
+                "url": "fruits/fruit9.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit10",
+                "url": "fruits/fruit10.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit11",
+                "url": "fruits/fruit11.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit12",
+                "url": "fruits/fruit12.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit13",
+                "url": "fruits/fruit13.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit14",
+                "url": "fruits/fruit14.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit15",
+                "url": "fruits/fruit15.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit16",
+                "url": "fruits/fruit16.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit17",
+                "url": "fruits/fruit17.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit18",
+                "url": "fruits/fruit18.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit19",
+                "url": "fruits/fruit19.png"
+            },
+            {
+                "type": "image",
+                "key": "fruit20",
+                "url": "fruits/fruit20.png"
+            }
+        ]
+    }
+}

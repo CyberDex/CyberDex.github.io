@@ -4,57 +4,57 @@
             {
                 "type": "image",
                 "key": "scoreBox",
-                "url": "assets/ui/scoreBox.png"
+                "url": "ui/scoreBox.png"
             },
             {
                 "type": "image",
                 "key": "gameName",
-                "url": "assets/ui/gameName.png"
+                "url": "ui/gameName.png"
             },
             {
                 "type": "image",
                 "key": "smallStar",
-                "url": "assets/ui/smallStar.png"
+                "url": "ui/smallStar.png"
             },
             {
                 "type": "image",
                 "key": "star",
-                "url": "assets/ui/star.png"
+                "url": "ui/star.png"
             },
             {
                 "type": "image",
                 "key": "box",
-                "url": "assets/ui/box.png"
+                "url": "ui/box.png"
             },
             {
                 "type": "image",
                 "key": "boxSmall",
-                "url": "assets/ui/boxSmall.png"
+                "url": "ui/boxSmall.png"
             },
             {
                 "type": "image",
                 "key": "stripe",
-                "url": "assets/ui/stripe.png"
+                "url": "ui/stripe.png"
             },
             {
                 "type": "image",
                 "key": "startButton",
-                "url": "assets/ui/startButton.png"
+                "url": "ui/startButton.png"
             },
             {
                 "type": "image",
                 "key": "restartButton",
-                "url": "assets/ui/restartButton.png"
+                "url": "ui/restartButton.png"
             },
             {
                 "type": "image",
                 "key": "playButton",
-                "url": "assets/ui/playButton.png"
+                "url": "ui/playButton.png"
             },
             {
                 "type": "image",
                 "key": "dialog",
-                "url": "assets/ui/dialog.png"
+                "url": "ui/dialog.png"
             }
         ]
     }
