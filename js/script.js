@@ -244,6 +244,13 @@
         });
     };
 
+    const flipOnStart = () => {
+        $('.site-content__inner-right').addClass('animated');
+        setTimeout(function () {
+            $('.site-content__inner-right').removeClass('animated');
+        }, 500);
+    }
+
     /* RE-INIT FUNCTIONS ON AJAX */
     const reInitFunctionsOnAjax = (data) => {
         if ( typeof data !== 'string' ) return false;
@@ -348,6 +355,7 @@
         if ( $('.unit').length ){
             masonry();
         }
+        flipOnStart();
     });
 
     /* INITIALIZE FUNCTIONS ON WINDOW RESIZE */

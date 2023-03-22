@@ -772,7 +772,7 @@ strong {
 }
 
 .site-content__page-wrap .niko-sc {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     padding-right: 30px;
     position: relative
 }
@@ -788,8 +788,12 @@ strong {
     opacity: 0.09
 }
 
+.padding20 {
+    padding-top: 20px;
+}
+
 .site-content__page-wrap .niko-sc__title-wrap {
-    margin: 40px 0 30px;
+    margin: 20px 0 30px;
     display: flex;
     align-items: center;
     justify-content: flex-start
@@ -3177,18 +3181,42 @@ figure.gallery-item {
 .niko-sc__about-list {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    justify-content: end;
 }
 
 .niko-sc__about-item {
     font-size: 18px;
     font-weight: 500;
-    font-style: italic;
     line-height: 1.67;
-    color: var(--c-primary);
+    /* color: var(--c-primary); */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
+}
+
+.niko-sc__about-item a {
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.67;
+    /* color: var(--c-primary); */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: var(--first-font);
+}
+
+.niko-sc__about-item a i {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    color: 'white' !important;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.niko-sc__about-item a:hover{
+    color: 'white' !important;
 }
 
 .niko-sc__about-item:not(:last-child) {

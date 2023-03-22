@@ -31,3 +31,7 @@ body .left-menu {
 .site-content:not(.unit) .mCSB_scrollTools .mCSB_dragger {
     cursor: none;
 }
+
+.cv {
+    font-size: 24px;
+}

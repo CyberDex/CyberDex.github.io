@@ -76,6 +76,22 @@
                     });
                 };
 
+                const handleMouseEnterSquare = e => {
+                    this.isStuck = true;
+                    const target = e.currentTarget;
+                    const box = target.getBoundingClientRect();
+                    this.outerCursorOriginals = {
+                        width: this.outerCursorBox.width,
+                        height: this.outerCursorBox.height
+                    };
+                    TweenMax.to(this.outerCursor, 0.2, {
+                        x: box.left - 10,
+                        y: box.top - 10,
+                        width: box.width + 20,
+                        height: box.height + 20,
+                    });
+                };
+
                 const handleMouseLeave = () => {
                     this.isStuck = false;
                     TweenMax.to(this.outerCursor, 0.2, {
@@ -87,6 +103,12 @@
                 const linkItems = document.querySelectorAll("body .menu-item a, .left-menu__download-btn, .person__socials-list li");
                 linkItems.forEach(item => {
                     item.addEventListener("mouseenter", handleMouseEnter);
+                    item.addEventListener("mouseleave", handleMouseLeave);
+                });
+
+                const SquarelinkItems = document.querySelectorAll(".niko-sc__about-item a");
+                SquarelinkItems.forEach(item => {
+                    item.addEventListener("mouseenter", handleMouseEnterSquare);
                     item.addEventListener("mouseleave", handleMouseLeave);
                 });
 
