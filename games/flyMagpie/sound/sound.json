@@ -1,62 +1,51 @@
 {
-    "preload": {
-        "files": [
-            {
-                "type": "audio",
-                "key": "music",
-                "url": [
-                    "sound/mp3/music.mp3",
-                    "sound/ogg/music.ogg"
-                ]
-            },
-            {
-                "type": "audio",
-                "key": "die",
-                "url": [
-                    "sound/mp3/crow1.mp3",
-                    "sound/ogg/crow1.ogg"
-                ]
-            },
-            {
-                "type": "audio",
-                "key": "hi",
-                "url": [
-                    "sound/mp3/crow2.mp3",
-                    "sound/ogg/crow2.ogg"
-                ]
-            },
-            {
-                "type": "audio",
-                "key": "coin",
-                "url": [
-                    "sound/mp3/coin.mp3",
-                    "sound/ogg/coin.ogg"
-                ]
-            },
-            {
-                "type": "audio",
-                "key": "flap",
-                "url": [
-                    "sound/mp3/flap.mp3",
-                    "sound/ogg/flap.ogg"
-                ]
-            },
-            {
-                "type": "audio",
-                "key": "kick",
-                "url": [
-                    "sound/mp3/kick.mp3",
-                    "sound/ogg/kick.ogg"
-                ]
-            },
-            {
-                "type": "audio",
-                "key": "splash",
-                "url": [
-                    "sound/mp3/splash.mp3",
-                    "sound/ogg/splash.ogg"
-                ]
-            }
-        ]
-    }
+	"preload": {
+		"files": [
+			{
+				"type": "audio",
+				"key": "music",
+				"url": ["sound/mp3/music.mp3", "sound/ogg/music.ogg"]
+			},
+			{
+				"type": "audio",
+				"key": "die",
+				"url": ["sound/mp3/crow1.mp3", "sound/ogg/crow1.ogg"]
+			},
+			{
+				"type": "audio",
+				"key": "hi",
+				"url": ["sound/mp3/crow2.mp3", "sound/ogg/crow2.ogg"]
+			},
+			{
+				"type": "audio",
+				"key": "coin",
+				"url": ["sound/mp3/coin.mp3", "sound/ogg/coin.ogg"]
+			},
+			{
+				"type": "audio",
+				"key": "flap",
+				"url": ["sound/mp3/flap.mp3", "sound/ogg/flap.ogg"]
+			},
+			{
+				"type": "audio",
+				"key": "kick",
+				"url": ["sound/mp3/kick.mp3", "sound/ogg/kick.ogg"]
+			},
+			{
+				"type": "audio",
+				"key": "splash",
+				"url": ["sound/mp3/splash.mp3", "sound/ogg/splash.ogg"]
+			},
+			{
+				"type": "audio",
+				"key": "tap",
+				"url": ["sound/mp3/tap.mp3", "sound/ogg/tap.ogg"]
+			},
+			{
+				"type": "audio",
+				"key": "error",
+				"url": ["sound/mp3/error.mp3", "sound/ogg/error.ogg"]
+			}
+		]
+	}
 }

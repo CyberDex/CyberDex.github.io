@@ -1,7 +1,12 @@
 {
-    "instant_games": {
-        "orientation": "LANDSCAPE",
-        "override_web_orientation": "LANDSCAPE",
-        "navigation_menu_version": "NAV_FLOATING"
-    }
+	"instant_games": {
+		"orientation": "LANDSCAPE",
+		"override_web_orientation": "LANDSCAPE",
+		"navigation_menu_version": "NAV_BAR",
+		"custom_update_templates": {
+			"challenge": {
+				"example": "X got Y gems on level Z, try to beat him!!!`,"
+			}
+		}
+	}
 }

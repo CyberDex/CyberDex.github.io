@@ -1,0 +1,356 @@
+{
+	"textures": [
+		{
+			"image": "bee.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 227,
+				"h": 184
+			},
+			"scale": 0.1,
+			"frames": [
+				{
+					"filename": "hit1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 41
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 51,
+						"h": 41
+					}
+				},
+				{
+					"filename": "hit2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 41
+					},
+					"frame": {
+						"x": 61,
+						"y": 4,
+						"w": 51,
+						"h": 41
+					}
+				},
+				{
+					"filename": "hit3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 41
+					},
+					"frame": {
+						"x": 118,
+						"y": 4,
+						"w": 51,
+						"h": 41
+					}
+				},
+				{
+					"filename": "fly1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 41
+					},
+					"frame": {
+						"x": 175,
+						"y": 4,
+						"w": 48,
+						"h": 41
+					}
+				},
+				{
+					"filename": "hit4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 41
+					},
+					"frame": {
+						"x": 4,
+						"y": 51,
+						"w": 51,
+						"h": 41
+					}
+				},
+				{
+					"filename": "hit5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 41
+					},
+					"frame": {
+						"x": 61,
+						"y": 51,
+						"w": 51,
+						"h": 41
+					}
+				},
+				{
+					"filename": "hit6",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 41
+					},
+					"frame": {
+						"x": 118,
+						"y": 51,
+						"w": 51,
+						"h": 41
+					}
+				},
+				{
+					"filename": "fly3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 41
+					},
+					"frame": {
+						"x": 175,
+						"y": 51,
+						"w": 48,
+						"h": 41
+					}
+				},
+				{
+					"filename": "hit7",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 41
+					},
+					"frame": {
+						"x": 4,
+						"y": 98,
+						"w": 51,
+						"h": 41
+					}
+				},
+				{
+					"filename": "hit8",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 41
+					},
+					"frame": {
+						"x": 61,
+						"y": 98,
+						"w": 51,
+						"h": 41
+					}
+				},
+				{
+					"filename": "fly5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 41
+					},
+					"frame": {
+						"x": 118,
+						"y": 98,
+						"w": 48,
+						"h": 41
+					}
+				},
+				{
+					"filename": "fly7",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 41
+					},
+					"frame": {
+						"x": 172,
+						"y": 98,
+						"w": 48,
+						"h": 41
+					}
+				},
+				{
+					"filename": "fly2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 48,
+						"h": 35
+					},
+					"frame": {
+						"x": 4,
+						"y": 145,
+						"w": 48,
+						"h": 35
+					}
+				},
+				{
+					"filename": "fly4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 48,
+						"h": 35
+					},
+					"frame": {
+						"x": 58,
+						"y": 145,
+						"w": 48,
+						"h": 35
+					}
+				},
+				{
+					"filename": "fly6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 48,
+						"h": 35
+					},
+					"frame": {
+						"x": 112,
+						"y": 145,
+						"w": 48,
+						"h": 35
+					}
+				},
+				{
+					"filename": "fly8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 48,
+						"h": 35
+					},
+					"frame": {
+						"x": 166,
+						"y": 145,
+						"w": 48,
+						"h": 35
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:0016c3f5488675040529ecbd243bf374:ea7f94b8950a40233c165fb1761f2a2e:1370451075ca5a23531a09c50c3033e0$"
+	}
+}

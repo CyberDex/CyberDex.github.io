@@ -1,0 +1,146 @@
+{
+	"textures": [
+		{
+			"image": "tutorial-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2043,
+				"h": 708
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "step2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 505,
+						"h": 581
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 505,
+						"h": 581
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 505,
+						"h": 581
+					}
+				},
+				{
+					"filename": "step0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 451,
+						"h": 581
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 451,
+						"h": 581
+					},
+					"frame": {
+						"x": 515,
+						"y": 4,
+						"w": 451,
+						"h": 581
+					}
+				},
+				{
+					"filename": "step3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 424,
+						"h": 581
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 424,
+						"h": 581
+					},
+					"frame": {
+						"x": 972,
+						"y": 4,
+						"w": 424,
+						"h": 581
+					}
+				},
+				{
+					"filename": "step1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 384,
+						"h": 582
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 384,
+						"h": 582
+					},
+					"frame": {
+						"x": 1402,
+						"y": 4,
+						"w": 384,
+						"h": 582
+					}
+				},
+				{
+					"filename": "step4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 247,
+						"h": 581
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 247,
+						"h": 581
+					},
+					"frame": {
+						"x": 1792,
+						"y": 4,
+						"w": 247,
+						"h": 581
+					}
+				},
+				{
+					"filename": "pointer",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 113
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 113
+					},
+					"frame": {
+						"x": 1792,
+						"y": 591,
+						"w": 76,
+						"h": 113
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:585cc6de0bc1df3dcd0ce548eb723d11:87c2733e0674524e54d4439ebfe2fb02:1d3847be8e2417cc1035eefe401cd732$"
+	}
+}
