@@ -4295,4 +4295,8 @@ iframe {
     }
 }
 
+.max1030 {
+    max-width: 1030px !important;
+}
+
 /*# sourceMappingURL=main.min.css.map */
